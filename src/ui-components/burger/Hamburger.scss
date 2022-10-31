@@ -38,3 +38,31 @@
     display: block;
 }
 
+.bar1 {
+    transform-origin: center left;
+    position: relative;
+}
+
+.bars-container2 {
+    position: relative;
+}
+
+.bars-container2 .bar {
+    position: absolute;
+    transform-origin: center;
+}
+
+.bars-container2 .bar1 {
+    top: 5%;
+    transition: opacity 0.4s ease;
+}
+
+.bars-container2 .bar2 {
+    top: 50%;
+    transition: opacity 0.4s ease;
+}
+
+.bars-container2 .bar3 {
+    top: 95%;
+    animation: makeCross2Backward var(--animationSpeed) ease 0s 1 forwards, moveUpBackward var(--animationSpeed) ease var(--animationSpeed) 1 forwards;
+}
