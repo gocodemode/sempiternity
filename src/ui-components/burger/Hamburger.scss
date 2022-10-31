@@ -66,3 +66,16 @@
     top: 95%;
     animation: makeCross2Backward var(--animationSpeed) ease 0s 1 forwards, moveUpBackward var(--animationSpeed) ease var(--animationSpeed) 1 forwards;
 }
+
+.input-check2:checked + label .bar1 {
+    animation: moveDown var(--animationSpeed) ease 0s 1 forwards, makeCross1 var(--animationSpeed) ease var(--animationSpeed) 1 forwards;
+}
+
+.input-check2:checked + label .bar2 {
+    opacity: 0;
+}
+  
+.input-check2:checked + label .bar3 {
+    animation: moveUp var(--animationSpeed) ease 0s 1 forwards,
+      makeCross2 var(--animationSpeed) ease var(--animationSpeed) 1 forwards;
+}
