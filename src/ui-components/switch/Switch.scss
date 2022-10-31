@@ -1,3 +1,14 @@
 :root {
     --switch-background: #444;
   }
+
+label.ui-switch {
+    display: inline-block;
+    width: $switch-width;
+    height: $switch-height;
+    background: var(--switch-background);
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
