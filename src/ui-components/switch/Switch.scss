@@ -2,6 +2,8 @@
     --switch-background: #444;
   }
 
+@import 'switch-variables';
+
 label.ui-switch {
     display: inline-block;
     width: $switch-width;
