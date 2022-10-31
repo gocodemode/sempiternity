@@ -9,3 +9,15 @@
     margin-top: -7px;
     margin-right: -10px;
 }
+
+.bars-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 20px;
+}
+
+.bars-container,
+.bar {
+    cursor:pointer;
+}
