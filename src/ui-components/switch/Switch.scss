@@ -12,3 +12,10 @@ label.ui-switch {
     cursor: pointer;
 }
 
+label.ui-switch:active > .circle {
+    width: $circle-size;
+}
+
+label.ui-switch:active > .input:checked + .circle {
+    left: $circle-size;
+}
