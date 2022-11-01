@@ -1,7 +1,2 @@
-<div className= {'app-container'}>
-    <main>
-        <header></header>
-        <section></section>
-        <footer></footer>
-    </main>
-</div>
+import React, { lazy, Suspense } from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
