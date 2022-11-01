@@ -9,3 +9,20 @@ import Logo from './partial-components/Logo'
 import Sidenav from './partial-components/Sidenav'
 import Topnav from './partial-components/Topnav'
 import Foot from './partial-components/Foot'
+
+const Frame = () => {
+    return (
+      <BrowserRouter>
+        <div className={`app-container light`}>
+          <main>
+            <header>
+              <Logo />
+              <Topnav />
+            </header>
+          </main>
+      </div>
+    </BrowserRouter>
+  )
+}
+
+export default Frame
