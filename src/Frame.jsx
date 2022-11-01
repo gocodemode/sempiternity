@@ -28,7 +28,11 @@ const Frame = () => {
               <Route render={() => <h2>404 Page Not Found</h2>} />
             </Switch>
           </section>
-          </main>
+          <footer>
+            <Foot />
+          </footer>
+        </main>
+        <Sidenav />
       </div>
     </BrowserRouter>
   )
